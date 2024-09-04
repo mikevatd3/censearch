@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "censearch"
+version = "0.1.0"
+description = "A system to search census tables and variables."
+authors = ["mikevatd3 <mike@datadrivendetroit.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+Flask = "^3.0.3"
+SQLAlchemy = "^2.0.32"
+tomli = "^2.0.1"
+psycopg2 = "^2.9.9"
+returns = "^0.23.0"
+loader = {path = "../loader", develop = true}
+pyarrow = "^17.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
