@@ -1,0 +1,802 @@
+[
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "housing units",
+    "expected_return": "Details the number of housing units, both occupied and vacant."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "rent as percentage of income",
+    "expected_return": "Displays how much of household income is spent on rent."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "median rent cost",
+    "expected_return": "Displays the median rent price for renter-occupied housing units."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "employment status",
+    "expected_return": "Presents employment status data, such as employed, unemployed, and not in labor force."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "median age of population",
+    "expected_return": "Provides the median age of the population in the area."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "median household income",
+    "expected_return": "Shows the median household income in the specified area."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "school enrollment",
+    "expected_return": "Shows the number of individuals enrolled in school, by grade level."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "value of homes",
+    "expected_return": "Provides the median value of owner-occupied homes."
+  },
+  {
+    "query": "poverty status of families",
+    "expected_return": "Shows the poverty status of families, categorized by family type."
+  },
+  {
+    "query": "poverty rate",
+    "expected_return": "Gives the percentage of individuals living below the poverty line."
+  },
+  {
+    "query": "industry by occupation",
+    "expected_return": "Lists workers categorized by industry and occupation."
+  },
+  {
+    "query": "income distribution",
+    "expected_return": "Shows the income distribution across different households."
+  },
+  {
+    "query": "unemployment rate",
+    "expected_return": "Provides the percentage of people who are unemployed within the labor force."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "race demographics",
+    "expected_return": "Presents the racial composition of the population."
+  },
+  {
+    "query": "educational attainment for adults",
+    "expected_return": "Lists the highest level of education completed by adults aged 25 and over."
+  },
+  {
+    "query": "population by age and sex",
+    "expected_return": "Displays the population distribution categorized by age and sex."
+  },
+  {
+    "query": "ethnic breakdown",
+    "expected_return": "Shows the breakdown of the population by ethnic groups."
+  },
+  {
+    "query": "tenure by race",
+    "expected_return": "Breaks down homeownership and rental rates by race."
+  },
+  {
+    "query": "total number of households",
+    "expected_return": "Gives the total count of households in the region."
+  }
+]
