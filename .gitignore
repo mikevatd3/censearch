@@ -3,3 +3,4 @@ __pycache__
 tests/fixtures
 config.toml
 logs/
+backups/*.gzip
