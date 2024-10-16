@@ -1,21 +1,18 @@
 {% for result in results %}
 <div class="result-row">
   <div class="table-title">
-  <h3><a href="/censearch/tables/{{ result.id }}">Table {{ result.id }}</a></h3>
-  <p>{{ result.title|safe }}</p>
+  <h3><a hx-get="/censearch/tables/{{ result.table_id }}"
+         hx-select="#table-summary"
+         hx-target="#search-tool"
+         hx-swap="outerHTML"
+         hx-push-url="true"
+         href="#">Table {{ result.table_id }}</a></h3>
+  <p>{{ result.table|safe }}</p>
   </div>
-  {% if result.variable %}
-      {% if result.parent_id %}
-      <ul>
-          <li>{{ result.parent_id }}: {{ result.parent_label }}
-      {% endif %}
-              <ul>
-                  <li>{{ result.variable|safe }}</li>
-              </ul>
-      {% if result.parent_id %}
-          </li>
-      </ul>
-  {% endif %}
+  {% if result.variable_id %}
+  {% for id, var in zip(result.variable_id, result.variable) %}
+      <p><strong>{{ id }}:</strong> {{ var|safe }}</p>
+  {% endfor %}
   {% endif %}
   <p>Universe: {{ result.universe }}</p>
 </div>

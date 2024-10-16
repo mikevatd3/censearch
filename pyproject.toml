@@ -15,6 +15,7 @@ psycopg2 = "^2.9.9"
 returns = "^0.23.0"
 loader = {path = "../loader", develop = true}
 pyarrow = "^17.0.0"
+requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"

@@ -9,23 +9,76 @@
     border-radius: 0.5em;
     padding: 0.5em;
   }
-  .result-row {
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.5em;
-    padding: 1em;
-    margin-bottom: 1em;
-  }
-  #results {
-    margin-top: 1em;
-  }
-  .variable-result {
-    margin-left: 2em;
-  }
-  h3 a {
-    text-decoration: none;
-  }
+
+  dialog {
+      align-items: start;
+      backdrop-filter: none;
+      background: linear-gradient(
+          180deg, 
+          rgba(0,0,0, 0.75), 
+          rgba(0,0,0, 0.5), 3rem, 
+          rgba(0, 0, 0, 0), 5rem, 
+          rgba(0, 0, 0, 0), 10rem, 
+          rgba(0, 0, 0, 0.5), 12rem, 
+          rgba(0,0,0, 0.75));
+    }
+    
+    dialog article {
+        margin-top: 8.8rem;
+        width: 95%;
+        max-width: 65rem;
+        max-height: calc(95% - 8.8rem);
+    }
+    
+    .result-row {
+      border-color: #FFFFFF;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 0.5em;
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+    #results {
+      margin-top: 1em;
+    }
+    .variable-result {
+      margin-left: 2em;
+    }
+    h3 a {
+      text-decoration: none;
+    }
+
+
+    .variable-id {
+        font-family: courier;
+    }
+
+    .tree ul {
+        padding-inline-start: 2em;
+        padding-left: 1.5em;
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+    
+    .tree li {
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 0.5em;
+    }
+
+    .tree li::before {
+        content: '';
+        border-left: 1px solid #555;
+        position: absolute;
+        top: 0.2em;
+        left: -1em;
+        bottom: -1.2em;
+    }
+
+    .tree li:last-child::before {
+        bottom: 0.5em;
+    }
+
 </style>
 {% endblock %}
 
@@ -34,19 +87,59 @@
 {% endblock %}
 
 {% block content %}
+<input>
+<input>
 <div>
-<input name="q"
-       hx-get="/censearch/text-search"
-       hx-trigger="keyup delay:500ms changed"
-       hx-target="#results"
-       hx-indicator="#load-ind"
-       placeholder="search the ACS">
+    <button id="var-search-open">Search variables</button>
+    <dialog id="var-search">
+        <article id="search-tool">
+            <header>
+              <button aria-label="Close" id="var-search-close" rel="prev"></button>
+              <p>
+                <strong>Search census tables and variables</strong>
+              </p>
+            </header>
+            <input name="q"
+                   hx-get="/censearch/text-search"
+                   hx-trigger="keyup delay:500ms changed"
+                   hx-target="#results"
+                   hx-indicator="#load-ind"
+                   placeholder="search the ACS">
+            <div id="load-ind" class="htmx-indicator">
+              <h3>Loading results ...</h3>
+            </div>
+            <div id="results"></div>
+        </article>
+    </dialog>
 </div>
-<div id="load-ind" class="htmx-indicator">
-  <h3>Loading results ...</h3>
-</div>
-<div id="results">
-  <h3>Results will appear here...</h3>
-</div>
+<script>
+    // Function to attach event listeners
+    function attachDialogEvents() {
+        const dialog = document.getElementById("var-search");
+        const openBtn = document.getElementById("var-search-open");
+        const closeBtn = document.getElementById("var-search-close");
+
+        if (openBtn && dialog) {
+            openBtn.addEventListener('click', () => {
+                dialog.show();
+            });
+        }
+
+        if (closeBtn && dialog) {
+            closeBtn.addEventListener('click', () => {
+                dialog.close();
+            });
+        }
+    }
+
+    // Initial attachment of event listeners
+    attachDialogEvents();
+
+    // Listen for htmx content replacement
+    document.body.addEventListener('htmx:afterSettle', function(evt) {
+        // Reattach event listeners after htmx call settles
+        attachDialogEvents();
+    });
+</script>
 {% endblock %}
 

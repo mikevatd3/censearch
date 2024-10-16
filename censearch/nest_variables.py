@@ -24,7 +24,6 @@ def convert_to_dicts(variable_list):
 
 
 def nest_variables(variables, parent_id=None):
-    logger.info(variables, parent_id)
     """
     This will only work on small data, but it's n^2 in its current form.
     """
